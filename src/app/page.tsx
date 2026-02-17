@@ -1,36 +1,3 @@
-// import Link from "next/link";
-// import Footer from "./footer";
-
-// const HomePage = () => {
-//   return (
-//     <div className="flex min-h-screen flex-col">
-//       {/* CONTEÚDO CENTRAL */}
-//       <main className="flex flex-1 flex-col items-center justify-center px-6 text-center">
-//         <h1 className="mb-4 text-3xl font-bold">
-//           🍔 Sistema de Autoatendimento
-//         </h1>
-
-//         <p className="mb-8 max-w-md text-muted-foreground">
-//           Este projeto simula um sistema de pedidos para restaurantes,
-//           permitindo que o cliente escolha seus produtos de forma prática
-//           e rápida.
-//         </p>
-
-//         <Link
-//           href="/fsw-donalds"
-//           className="rounded-lg bg-yellow-500 px-6 py-3 font-semibold text-white transition hover:bg-yellow-600"
-//         >
-//           Entrar no Restaurante 🍟
-//         </Link>
-//       </main>
-
-//       {/* FOOTER */}
-//       <Footer />
-//     </div>
-//   );
-// };
-
-// export default HomePage;
 import Link from "next/link";
 
 import Footer from "./footer";
