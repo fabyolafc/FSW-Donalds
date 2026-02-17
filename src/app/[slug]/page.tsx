@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 
 import { db } from "@/lib/prisma";
 
+import Footer from "../footer";
 import ConsumptionMethodOption from "./components/consumption-method-option";
 
 interface RestaurantPageProps {
@@ -51,6 +52,7 @@ const RestaurantPage = async ({ params }: RestaurantPageProps) => {
           imageUrl="/takeaway.png"
         />
       </div>
+      <Footer />
     </div>
   );
 };
