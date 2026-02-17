@@ -6,7 +6,7 @@ const HomePage = () => {
   return (
     <div className="flex min-h-screen flex-col bg-gradient-to-b from-yellow-50 to-white">
       {/* CONTEÚDO CENTRAL */}
-      <main className="flex flex-1 flex-col items-center justify-center px-6 text-center">
+      <main className="flex flex-1 flex-col items-center justify-center px-6 text-center p-6">
         <h1 className="mb-4 text-4xl font-bold text-gray-800">
           🍔 Projeto Self-Checkout
         </h1>
