@@ -31,7 +31,6 @@ Sistema de **autoatendimento para restaurantes** desenvolvido com **Next.js**, p
 ## 🛠️ Tecnologias utilizadas
 
 - **Next.js**
-- **React** 
 - **TypeScript** 
 - **Tailwind CSS** 
 - **Prisma ORM** 
