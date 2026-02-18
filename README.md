@@ -1,4 +1,4 @@
-# 🍔 Self-Checkout Restaurant
+# 🍔 FSW-Donalds
 
 Sistema de **autoatendimento para restaurantes** desenvolvido com **Next.js**, permitindo que clientes façam pedidos de forma prática, escolham entre consumo no local ou para viagem, visualizem o cardápio e simulem pagamentos.
 
