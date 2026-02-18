@@ -1,36 +1,42 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🍔 Self-Checkout Restaurant
 
-## Getting Started
+Sistema de **autoatendimento para restaurantes** desenvolvido com **Next.js**, permitindo que clientes façam pedidos de forma prática, escolham entre consumo no local ou para viagem, visualizem o cardápio e simulem pagamentos.
 
-First, run the development server:
+🔗 **Acesse o projeto:** [fsw-donaldss.vercel.app](https://fsw-donaldss.vercel.app)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ✨ Funcionalidades
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- ✅ Escolha do **método de consumo**: Comer no local ou Para levar  
+- ✅ **Listagem dinâmica** de categorias e produtos  
+- ✅ **Página de detalhes** de cada produto  
+- ✅ **Integração com banco de dados** via Prisma  
+- ✅ Layout totalmente **responsivo**  
+- ✅ **Simulação de pagamento** com Stripe  
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🧠 Conceitos aplicados
 
-To learn more about Next.js, take a look at the following resources:
+- Componentização com React  
+- **Rotas dinâmicas** e uso de parâmetros (`useParams`, `useSearchParams`)  
+- **Organização por responsabilidades** (separação de componentes, páginas e serviços)  
+- **Estilização moderna** com Tailwind CSS  
+- **Banco de dados relacional** com Prisma ORM e PostgreSQL  
+- **Boas práticas** de commits e estrutura de projeto  
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🛠️ Tecnologias utilizadas
 
-## Deploy on Vercel
+- **Next.js**
+- **React** 
+- **TypeScript** 
+- **Tailwind CSS** 
+- **Prisma ORM** 
+- **PostgreSQL**
+- **Stripe** 
+- **Lucide React**
+- **Zod** 
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
